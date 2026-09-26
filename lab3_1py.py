@@ -1,0 +1,6 @@
+integer=int(input('введите число :'))
+decimal=float(input('введите дробное число: '))
+text=input('введите текст')
+print(f'значение: {integer},тип : {type(integer).__name__}')
+print(f'значение: {decimal},тип : {type(decimal).__name__}')
+print(f'значение: {text},тип : {type(text).__name__}')
